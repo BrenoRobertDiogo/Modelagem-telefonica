@@ -2,6 +2,8 @@
 <h3>Objetivo</h3>
 <p>Com o intuito de aprender mais sobre orientação a objetos, herança e outros conceitos que abrangem essa área esse projeto é ótimo para isso</p>
 
+<h3>Desafio</h3>
+
 <b>A empresa de telefonia "Te Mato Se Estiver Vivo" deseja criar um sistema para atender seu negócio. Para isto, ela expôs o seguinte:</b>
 
 <p>Existem dois tipos de linhas, móveis e fixas. Ambas as linhas possuem nome do titular, numero e ano de contratação. As linhas móveis possuem quantidade atual de saldo, nova mensagem, se possui plano de dados ou não e se o SMS está disponível. As linhas fixas possuem valor da mensalidade, franquia mensal em minutos, valor restante da franquia e se a fatura já foi paga ou não.
