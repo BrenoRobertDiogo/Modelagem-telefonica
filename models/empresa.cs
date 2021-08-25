@@ -5,9 +5,15 @@ namespace Empresas
 {
     public class Empresa
     {
-        public List<Linhas> linhas { get; set; }
-        public Empresa (List<Linhas> _linha) {
-            this.linhas = _linha;
+        public List<LinhasMoveis> linhasMoveis { get; set; }
+        public List<LinhasFixas> linhasFixas { get; set; }
+        public string Nome { get; set; }
+        
+        
+        public Empresa (List<LinhasMoveis> _linha, string _nome, List<LinhasFixas> _linhas) {
+            this.linhasMoveis = _linha;
+            this.linhasFixas = _linhas;
+            this.Nome = _nome;
         }
         
         

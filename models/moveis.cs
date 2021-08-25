@@ -12,10 +12,20 @@ namespace Linhass
         public string novaMensagem {get; set;}
         public bool possuiPlano {get; set;}
         public bool smsDisponivel {get; set;}
+
+        public LinhasMoveis() : base() {
+            this.possuiPlano = false;
+            this.smsDisponivel = false;
+            this.novaMensagem = "";
+            this.saldoAtual = 0.0;
+        }
+
         
 
         public void recarregar(double valor) 
         {
+            this.possuiPlano = true;
+            this.smsDisponivel = true;
             this.saldoAtual += valor;
         }
 
@@ -23,7 +33,7 @@ namespace Linhass
         {
             if (this.possuiPlano)
             {
-                Console.WriteLine("Quantidade: ");
+                Console.WriteLine("Quantidade de saldo a colocar: ");
                 double qnt = int.Parse(Console.ReadLine())/4 * 0.99;
                 this.saldoAtual += qnt;
 

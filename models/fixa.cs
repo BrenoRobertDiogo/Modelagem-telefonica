@@ -13,6 +13,20 @@ namespace Linhass
         private int franquiaMensalMin {get; set;}
         private int restanteFranquia {get; set;}
         private bool faturaPaga {get; set;}
+
+        public LinhasFixas(
+            double _valorMensalidade,
+            int _franquiaMensalMin,
+            int _restanteFranquia,
+            bool _faturaPaga
+) : base() 
+        {
+            this.valorMensalidade = _valorMensalidade;
+            this.franquiaMensalMin = _franquiaMensalMin;
+            this.restanteFranquia = _restanteFranquia;
+            this.faturaPaga = _faturaPaga;
+        }
+
         
         public void Ligar(int qntMin) 
         {
