@@ -1,6 +1,6 @@
 using System;
 
-namespace Linhas
+namespace Linhass
 {
     public class LinhasFixas : Linhas
     {

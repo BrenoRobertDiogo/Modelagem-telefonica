@@ -1,12 +1,12 @@
 using System;
 
-namespace Linhas
+namespace Linhass
 {
-    public abstract class Linhas
+    public class Linhas
     {
-        public abstract string nomeTitular {get; set;}
-        public abstract int numeroContratacao {get; set;}
-        public abstract DateTime anoContratacao {get; set;}
+        public virtual string nomeTitular {get; set;}
+        public virtual int numeroContratacao {get; set;}
+        public virtual DateTime anoContratacao {get; set;}
 
     }
 }

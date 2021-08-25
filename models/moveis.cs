@@ -1,5 +1,5 @@
 using System;
-namespace Linhas
+namespace Linhass
 {
     public class LinhasMoveis : Linhas
     {
